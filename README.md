@@ -1,11 +1,17 @@
    **Technologies Used**
 
    1.Spring Boot/Spring Data. 1.5.9 
+   
    2.Mongo DB. v3.4.10
+   
    3.Eclipse IDE   Version: Oxygen.2 Release (4.7.2)
+   
    4.Spring boot embedded Tomcat Server
+   
    5.Java 8
+   
    6.Maven 
+   
    6.PostMan for testing api
 
 # Architecture
