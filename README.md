@@ -1,4 +1,4 @@
-    Technologies Used
+   ##Technologies Used
 
    1.Spring Boot/Spring Data. 1.5.9 
    2.Mongo DB. v3.4.10
@@ -8,7 +8,8 @@
    6.Maven 
    6.PostMan for testing api
    
-MarketPlace API has two models(entities)
+   ##Models
+     MarketPlace API has two models(entities)
 
      1)Project 
 
@@ -22,7 +23,7 @@ MarketPlace API has two models(entities)
 
      Bid always exist within  a Project, a composition association.
 
-
+   
    Used Spring Boot to create initial Project and Spring Data/Mongo DB for transaction/persistence.Used Mongo DB as it don’t need any pre defined schema and we might have different kinds of Projects in Market Place with different fields.
 
 In src/main/resources/application.properties we have to give configurations for mongo db like below 
@@ -38,7 +39,7 @@ For Launching the application just open the project in eclipse and run as spring
 
 Used Postman to test API
 
-API for Projects
+######API for Projects
 
 1)Get All projects
 
@@ -63,11 +64,11 @@ localhost:8080/marketplace/api/projects
 
 localhost:8080/marketplace/api/projects
 
-Validations 
+######Validations 
 
 Name is mandatory for Project
 
-API for Bid
+######API for Bid
 
 1)Create a Bid for a Project -POST method
 
@@ -85,7 +86,7 @@ localhost:8080/marketplace/api/projects/{projectId}/bids/{bidId}
 
 localhost:8080/marketplace/api/projects/{projectId}/bids
 
-Validations
+######Validations
 
 Bid Creation Date should be before Project Last Bidding Date
 
@@ -94,7 +95,7 @@ While Creating Bid Project is validated like only for a valid Project we can cre
 If Project status is CLOSED we can’t create a Bid
 
 
-Additional Notes
+##Additional Notes
 
 
 1) For getting the winner of a Bid we can have a field wonBidId in Project and set it using  a cron(concurrent program) job which can close the Project and change the status to CLOSED on lastBidDay.
@@ -104,7 +105,7 @@ Additional Notes
 User Entity with user related attributes and roles.
 
 
-Feedback on Exercise
+##Feedback on Exercise
    The time the exercise took (after dev environment is set up)
     I have spent nearly 5 hours on this exercise after setting up the environment.
     
