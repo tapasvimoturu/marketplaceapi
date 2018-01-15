@@ -65,11 +65,11 @@ localhost:8080/marketplace/api/projects
 
 localhost:8080/marketplace/api/projects
 
-######Validations 
+###### Validations 
 
 Name is mandatory for Project
 
-######API for Bid
+###### API for Bid
 
 1)Create a Bid for a Project -POST method
 
