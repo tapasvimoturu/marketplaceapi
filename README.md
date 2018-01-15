@@ -29,11 +29,14 @@
      Bid has amount, projectId and createdDate fields
 
      Bid always exist within  a Project, a composition association.
-
+     
+     There are two collections projects and bids in database and bid will be array of emdedded documents in project document.In that way its easy to query project and bids together
    
    Used Spring Boot to create initial Project and Spring Data/Mongo DB for transaction/persistence.Used Mongo DB as it don’t need any pre defined schema and we might have different kinds of Projects in Market Place with different fields.
    
 Database “marketplace” will be created in mongo db first time when we save Project/Bid.
+
+
 
 ## **How to use**
 For Launching the application just open the project in eclipse and run as spring boot application it will run in embedded tomcat.
