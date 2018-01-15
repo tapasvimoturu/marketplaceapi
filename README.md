@@ -48,7 +48,7 @@ localhost:8080/marketplace/api/projects
     
     By default will give all OPEN Projects
 localhost:8080/marketplace/api/projects?status=CLOSED
-        Will return all closed Projects also
+        Will return all CLOSED Projects 
      
 
 2)Get Project with ID
@@ -65,7 +65,7 @@ localhost:8080/marketplace/api/projects
 
 localhost:8080/marketplace/api/projects
 
-###### Validations 
+###### Validations for Project API
 
 Name is mandatory for Project
 
@@ -87,7 +87,7 @@ localhost:8080/marketplace/api/projects/{projectId}/bids/{bidId}
 
 localhost:8080/marketplace/api/projects/{projectId}/bids
 
-###### Validations
+###### Validations for Bid API
 
 Bid Creation Date should be before Project Last Bidding Date
 
