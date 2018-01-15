@@ -102,3 +102,26 @@ Additional Notes
 2)Could have added authentication and  authorization to API , but due to time constraint keeping it in notes
 
 User Entity with user related attributes and roles.
+
+
+I have spent nearly  5 hours on this exercise after setting up the environment.
+
+Exercise Difficulty: Easy, Moderate, Difficult, Very Difficult--Easy
+
+How did you feel about the exercise itself? (1 lowest, 10 highest—awesome way to assess coding ability)
+   
+   Its a very nice way to assess not only coding ability but also design, thought process and problem solving ability of a      candidate--8
+   
+How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
+
+    I felt it exciting as you are solving a real world problem than some basic coidng/algorithms-- 8
+    
+What would you change in the exercise and/or process?
+
+    I think its nice and also good to check candidates response with limited information
+    
+
+
+
+
+
